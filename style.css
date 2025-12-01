@@ -1,0 +1,690 @@
+
+*{
+    font-family: "raleway";
+    border: none;
+}
+
+/* OUAHIBA Part */
+
+.nav{
+    display: flex;
+    gap: 320px;
+    align-items: center;
+    padding-bottom: 80PX;
+}
+.nav div {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+} 
+.header h1{
+    text-align: right;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-right: 70px;
+}
+
+.header p {
+    margin-left: 80px;
+}
+
+.header .img5 {
+    margin-left: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.img5 {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.img5:hover{
+    transform: scale(1.5);
+    box-shadow: #002747;
+}
+
+.btn5 {
+    cursor: pointer;
+    margin-right: 70px;
+    transition: 0.3s ease;
+}
+
+.btn5:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #2C3141;
+}
+
+.hero-img {
+    width: 1100px;
+    margin-left: 80px;
+
+}
+
+
+.btn1{
+    margin-left: 80px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 8px 8px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 30px;
+    width: 240px;
+    transition: 0.3s ease;
+    width: 170px;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #2C3141; 
+}
+
+
+p span{
+    border-radius: 20px;
+    border: 2px black solid;
+    padding: 8px;
+}
+.card{
+    font-weight: normal;
+    font-size: 30PX;
+
+}
+
+button svg{
+    border-radius: 50%;
+    background-color:white;
+    padding: 6px;
+    margin-left: 10px ;
+}
+
+/* remember */
+
+.nav .nav1 a{
+    color: black;
+    transition: 0.3s ease;
+}
+.nav .nav1 a:hover{
+    transform: scale(1.1);
+    color: #4C6DA7; 
+    /* box-shadow: 0px 0px 5px rgb(110, 110, 236); */
+}
+.nav button{
+    background-color: black;
+    color: antiquewhite;
+    padding: 8px 5px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+/* Ahmed Part */
+
+.squad .home-content, .home-content1 {
+    margin-top: 70px;
+}
+
+
+.home-content, .home-content1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.home-content .item {
+    background-image: url(./Assets/Frame\ 7.png);
+    background-size: cover;
+    width: 500px;
+    height: 420px;
+    border-radius: 40px;
+    padding: 9px;
+    transition: 0.3s ease;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+
+.home-content .item .img {
+    margin-left: 10px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.item .img, .pp {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.item .pp {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+.home-content .item1 .ahmed1{
+    background-color: #032794;
+    color: white;
+}
+
+.home-content .item1 .ahmed2 {
+    background-color: black;
+    color: white;
+}
+
+.home-content .item3 .ahmed3 {
+    background-color: black;
+    color: white;
+}
+
+.home-content .item3 .ahmed4 {
+    background-color: #032794;
+    color: white;
+}
+
+.ahmed1 {
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 9px;
+    transition: 0.3s ease;
+}
+
+.ahmed1:hover{
+    transform: scale(1.1);
+}
+
+.ahmed2 {
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 9px;
+    transition: 0.3s ease;
+}
+
+.ahmed2:hover{
+    transform: scale(1.1);
+}
+
+.ahmed3 {
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 9px;
+    transition: 0.3s ease;
+}
+
+.ahmed3:hover{
+    transform: scale(1.1);
+}
+
+.ahmed4 {
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 9px;
+    transition: 0.3s ease;
+}
+
+.ahmed4:hover{
+    transform: scale(1.1);
+}
+
+
+.squad {
+    place-items: center;
+    margin-left: 10px;
+}
+
+.ahmed1 .img1, .p1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ahmed1 .p1 {
+    margin-top: 100px;
+}
+
+.ahmed2 .img2, .p2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ahmed2 .p2 {
+    margin-top: 100px;
+}
+
+.ahmed3 .img3, .p3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ahmed3 .p3 {
+    margin-top: 100px;
+}
+
+.ahmed4 .img4, .p4 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ahmed4 .p4 {
+    margin-top: 100px;
+}
+
+
+
+/* Samiya Part */
+
+.plans .btns .btn-m {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+
+.plans .btns .btn-y {
+    border: 1px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding:8px;
+    
+    
+}
+.plans .btns{
+    text-align: center;
+    margin-left: 550px;
+}
+
+
+.btns{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:0 auto;    
+    width:150px;
+    text-align: center;
+
+    
+    
+    
+}
+.btn-y{
+    font-size: medium;
+    padding: 10px;   
+}
+
+.btn-m{
+    font-size: medium;
+    padding: 10px;
+    
+}
+.price{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    align-items: center;
+}
+.properties-0{
+    border-radius: 20px;
+    background-color:white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 550px;
+    margin-left: 10px;
+    padding: 20px;
+    box-shadow: black;
+    height: 320px;   
+}
+.properties-0 .Download-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    /* transition: background-color 1s ease-out, transform 1s ease-out; */
+    Cursor: pointer;
+    display: flex;
+    gap: 18px;
+    padding-top: 10px;
+}
+
+.bt {
+    margin-top: 6px;
+}
+
+
+.Download-btn:hover{
+    background-color: #B5BFD4;
+    transform: scale(1.1);
+    
+}
+
+
+.properties-6{
+    border-radius: 20px;
+    box-shadow: black;
+    background-image: url(assets/bg.png);
+    width: 550px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+.properties-6 h1{
+    color: black;
+}
+
+.properties-6 .Trial-btn{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    transition: 0.3 ease; 
+    Cursor: pointer;
+    /* transition: background-color 1s ease-out, transform 1s ease-out; */
+    display: flex;
+    gap: 10px;
+}
+.Trial-btn:hover{
+    background-color: #B5BFD4;
+    transform: scale(1.1);
+    
+}
+
+.p-zero{
+    background-color:#B5BFD4;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.p-six{
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.plans h2{
+    margin-left: 55px;
+}
+
+
+/* Ahmed Part */
+
+
+.home-content4 {
+    place-items: center;
+    margin-top: 150px;
+}
+
+.one {
+    display: flex;
+}
+
+
+.text {
+    margin-right: 700px;
+}
+
+.link {
+    margin-top: 20px;
+    color: #0d0d12;
+}
+
+
+.itemx {
+    display: flex;
+}
+
+.itemy {
+    display: flex;
+}
+
+.itemz {
+    display: flex;
+}
+
+.itemx .bar1 {
+    background: #bcc7dd;      
+    padding: 3px 20px;
+    margin-right: 50px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;     
+}
+
+.itemx .bar2 {
+    background: white;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    padding: 3px 20px;
+    margin-left: 50px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;     
+}
+
+.itemy .bar3 {
+    background: white;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 3px 20px;
+    margin-right: 50px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;     
+}
+
+.itemy .bar4 {
+    background: #bcc7dd;      
+    padding: 3px 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;   
+}
+
+.itemz .bar5 {
+    background: #bcc7dd;      
+    padding: 3px 20px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;   
+}
+
+.itemz .bar6 {
+    background: white;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 3px 20px;
+    margin-left: 50px;
+    border-radius: 40px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;     
+}
+
+
+.bar1 .plus-btn1 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar2 .plus-btn2 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar3 .plus-btn3 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar4 .plus-btn4 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar5 .plus-btn5 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar6 .plus-btn6 {
+    background: #0d0d12;     
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Latifa Part */
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    border-radius: 50px 50px 0 0;
+    background: black;
+    width: 1272px;
+    width: 100%;
+    height: 320px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+
+.features{
+    display: flex;
+    gap: 500px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.apropos{
+    margin-top: 5%;
+    font-size: 20px;
+    display: flex;  
+    gap:20px;      
+    transition: 0.3s;
+}
+
+.apropos a {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.apropos a:hover{
+    transform: scale(1.1);
+    color: #4C6DA7; 
+} 
+
+footer p{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+.card{
+    margin-top: 40px; 
+}
+
+.social-media {
+    transition: 0.3 ease;
+}
+
+.social-media:hover{
+    transform: scale3d(1.03);
+    color: #0D1573;
+}
+
+
+
+
+
